@@ -47,7 +47,7 @@ export default function CoverLetterGenerator() {
       router.push(`/ai-cover-letter/${generatedLetter.id}`);
       reset();
     }
-  }, [generatedLetter]);
+  }, [generatedLetter, reset, router]);
 
   const onSubmit = async (data) => {
     try {
