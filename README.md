@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 SensAI
 
-## Getting Started
+**SensAI** is an advanced AI-powered career assistant web application designed to help job seekers **generate impactful cover letters**, **build professional resumes**, **analyze market trends**, **track skill demands**, and **prepare for interviews** — all in one place.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎯 **AI-Powered Cover Letter Generator**  
+  Instantly craft personalized cover letters that stand out.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 📄 **Resume Builder**  
+  Create polished, professional resumes that stand out in Applicant Tracking Systems (ATS).
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 📊 **Real-Time Industry Insights Dashboard**  
+  Stay ahead with our data-rich dashboard powered by background jobs using **Inngest**. Get up-to-date:
+  - 📈 Market Outlook (positive/neutral/negative)
+  - 📉 Growth Rate and Demand Levels
+  - 💰 Salary Ranges (Min / Median / Max by role)
+  - 🧠 In-Demand & Recommended Skills
+  - 🔍 Current Industry Trends
 
-## Learn More
+- 🎓 **Interview Preparation Toolkit**  
+  Access industry-specific interview questions to sharpen your skills.
 
-To learn more about Next.js, take a look at the following resources:
+- 📱 **Responsive UI**  
+  Designed with a modern interface and seamless experience across all devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔐 **Authentication via [Clerk](https://clerk.dev/)**  
+  Secure and scalable user authentication system.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🧩 **Database Integration with Prisma**  
+  Efficient and type-safe access to your database.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** [Next.js 15](https://nextjs.org)
+- **Authentication:** [Clerk](https://clerk.dev)
+- **Database ORM:** [Prisma](https://www.prisma.io/)
+- **Styling:** Tailwind CSS
+- **Runtime:** Node.js
+- **Deployment:** [Vercel](https://vercel.com)
